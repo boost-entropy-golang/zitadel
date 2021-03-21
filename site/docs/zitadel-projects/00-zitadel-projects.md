@@ -15,14 +15,12 @@ readingtime: 10min
 
 The idea of projects is to have a vessel for all components who are closely related to each other. Multiple projects can exist within an organization.
 
-<div class="zitadel-gallery" itemscope itemtype="http://schema.org/ImageGallery">
-    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="img/zitadel_organization_grant.png" itemprop="contentUrl" data-size="1920x1080">
-            <img src="img/zitadel_organization_grant.png" itemprop="thumbnail" alt="Zitadel Organization grant" />
-        </a>
-        <figcaption itemprop="caption description">Organization Grant</figcaption>
-    </figure>
-</div>
+<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <a href="img/zitadel_organization_grant.png" itemprop="contentUrl" data-size="1920x1080">
+        <img src="img/zitadel_organization_grant.png" itemprop="thumbnail" alt="Zitadel Organization grant" />
+    </a>
+    <figcaption itemprop="caption description">Organization Grant</figcaption>
+</figure>
 
 All applications within a project share the same roles, grants, and authorizations:
 
@@ -31,14 +29,12 @@ All applications within a project share the same roles, grants, and authorizatio
 * **Authorizations** define which users have which roles. Authorizations are also called “user grants”.
 * **Granted Organizations** can manage selected roles for your project on their own.
 
-<div class="zitadel-gallery" itemscope itemtype="http://schema.org/ImageGallery">
-    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="img/console_projects_overview.png" itemprop="contentUrl" data-size="1920x1080">
-            <img src="img/console_projects_overview.png" itemprop="thumbnail" alt="console_projects_overview.png" />
-        </a>
-        <figcaption itemprop="caption description">Organization Grant</figcaption>
-    </figure>
-</div>
+<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <a href="img/console_projects_overview.png" itemprop="contentUrl" data-size="1920x1080">
+        <img src="img/console_projects_overview.png" itemprop="thumbnail" alt="console_projects_overview.png" />
+    </a>
+    <figcaption itemprop="caption description">Organization Grant</figcaption>
+</figure>
 
 The goal of this module is to give you an overview, but not dive too deep into details around managing access rights and delegating management of roles to third parties. So let’s create a straightforward example project first.
 
@@ -46,14 +42,13 @@ The goal of this module is to give you an overview, but not dive too deep into d
 
 Visit https://console.zitadel.ch/projects or select “Projects” within your organization, then click the button to create a new project. 
 
-<div class="zitadel-gallery" itemscope itemtype="http://schema.org/ImageGallery">
-    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="img/console_projects_empty.png" itemprop="contentUrl" data-size="1920x1080">
-            <img src="img/console_projects_empty.png" itemprop="thumbnail" alt="console_projects_empty.png" />
-        </a>
-        <figcaption itemprop="caption description">Empty Project</figcaption>
-    </figure>
-</div>
+
+<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <a href="img/console_projects_empty.png" itemprop="contentUrl" data-size="1920x1080">
+        <img src="img/console_projects_empty.png" itemprop="thumbnail" alt="console_projects_empty.png" />
+    </a>
+    <figcaption itemprop="caption description">Empty Project</figcaption>
+</figure>
 
 Enter the name “ My first project” and continue.
 
@@ -71,61 +66,50 @@ and
 * Display Name: Editor
 * Group: user
 
-<div class="zitadel-gallery" itemscope itemtype="http://schema.org/ImageGallery">
-    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="img/console_projects_add_new_roles.gif" itemprop="contentUrl" data-size="1920x1080">
-            <img src="img/console_projects_add_new_roles.gif" itemprop="thumbnail" alt="console_projects_add_new_roles" />
-        </a>
-        <figcaption itemprop="caption description">Add New Roles</figcaption>
-    </figure>
-</div>
+<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <a href="img/console_projects_add_new_roles.gif" itemprop="contentUrl" data-size="1920x1080">
+        <img src="img/console_projects_add_new_roles.gif" itemprop="thumbnail" alt="console_projects_add_new_roles" />
+    </a>
+    <figcaption itemprop="caption description">Add New Roles</figcaption>
+</figure>
 
 Now, you can add roles to your own user, or you can create a new user. To create a new user, go to Users and click “New”. Enter the required contact details and save by clicking “Create”.
 
-<div class="zitadel-gallery" itemscope itemtype="http://schema.org/ImageGallery">
-    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="img/console_users_create_new_user.gif" itemprop="contentUrl" data-size="1920x1080">
-            <img src="img/console_users_create_new_user.gif" itemprop="thumbnail" alt="console_users_create_new_user" />
-        </a>
-        <figcaption itemprop="caption description">Create new user</figcaption>
-    </figure>
-</div>
+<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <a href="img/console_users_create_new_user.gif" itemprop="contentUrl" data-size="1920x1080">
+        <img src="img/console_users_create_new_user.gif" itemprop="thumbnail" alt="console_users_create_new_user" />
+    </a>
+    <figcaption itemprop="caption description">Create new user</figcaption>
+</figure>
 
 To grant users certain roles, you need to create authorizations. Go back to the project, and jump to the section AUTHORIZATIONS.
 
-<div class="zitadel-gallery" itemscope itemtype="http://schema.org/ImageGallery">
-    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="img/console_projects_create_authorization.gif" itemprop="contentUrl" data-size="1920x1080">
-            <img src="img/console_projects_create_authorization.gif" itemprop="thumbnail" alt="console_projects_create_authorization" />
-        </a>
-        <figcaption itemprop="caption description">Create Authorization</figcaption>
-    </figure>
-</div>
+<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <a href="img/console_projects_create_authorization.gif" itemprop="contentUrl" data-size="1920x1080">
+        <img src="img/console_projects_create_authorization.gif" itemprop="thumbnail" alt="console_projects_create_authorization" />
+    </a>
+    <figcaption itemprop="caption description">Create Authorization</figcaption>
+</figure>
 
 You can verify the role grant on the user. Select Users from the navigation menu and click on the user Coyote. Scroll down to the section AUTHORIZATION, there you should be able to verify that the user has the role ‘reader’ for your project ‘My first project’.
 
-<div class="zitadel-gallery" itemscope itemtype="http://schema.org/ImageGallery">
-    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="img/console_projects_authorization_created.png" itemprop="contentUrl" data-size="1920x1080">
-            <img src="img/console_projects_authorization_created.png" itemprop="thumbnail" alt="console_projects_authorization_created" />
-        </a>
-        <figcaption itemprop="caption description">Verify your authorization</figcaption>
-    </figure>
-</div>
-
+<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <a href="img/console_projects_authorization_created.png" itemprop="contentUrl" data-size="1920x1080">
+        <img src="img/console_projects_authorization_created.png" itemprop="thumbnail" alt="console_projects_authorization_created" />
+    </a>
+    <figcaption itemprop="caption description">Verify your authorization</figcaption>
+</figure>
 
 Now create another project (eg. “My second project”) and verify that there are no roles or authorizations on your second project.
 
 ### What is a granted project?
 
-<div class="zitadel-gallery" itemscope itemtype="http://schema.org/ImageGallery">
-    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="img/zitadel_organization_grant.png" itemprop="contentUrl" data-size="1920x1080">
-            <img src="img/zitadel_organization_grant.png" itemprop="thumbnail" alt="Zitadel Organization grant" />
-        </a>
-        <figcaption itemprop="caption description">Organization Grant</figcaption>
-    </figure>
-</div>
+<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <a href="img/zitadel_organization_grant.png" itemprop="contentUrl" data-size="1920x1080">
+        <img src="img/zitadel_organization_grant.png" itemprop="thumbnail" alt="Zitadel Organization grant" />
+    </a>
+    <figcaption itemprop="caption description">Organization Grant</figcaption>
+</figure>
 
 With ZITADEL you can grant selected roles within your project to an organization. The receiving organization can then create authorizations for their users on their own (self-service). 
 
@@ -135,25 +119,21 @@ The process of assigning certain roles by default or according to rules can be f
 
 Obviously, your organization can grant projects and receive projects. When you are granting, then the receiving organization will be displayed in the section GRANTED ORGANIZATIONS of your project.
 
-<div class="zitadel-gallery" itemscope itemtype="http://schema.org/ImageGallery">
-    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="img/console_projects_granted.png" itemprop="contentUrl" data-size="1920x1080">
-            <img src="img/console_projects_granted.png" itemprop="thumbnail" alt="console_projects_granted" />
-        </a>
-        <figcaption itemprop="caption description">Project granted to organization</figcaption>
-    </figure>
-</div>
+<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <a href="img/console_projects_granted.png" itemprop="contentUrl" data-size="1920x1080">
+        <img src="img/console_projects_granted.png" itemprop="thumbnail" alt="console_projects_granted" />
+    </a>
+    <figcaption itemprop="caption description">Project granted to organization</figcaption>
+</figure>
 
 A granted project, on the other hand, belongs to a third party, granting you some rights to manage certain roles of their project. ZITADEL Console shows granted projects in a dedicated navigation menu, to clearly separate from your organization’s projects. 
 
-<div class="zitadel-gallery" itemscope itemtype="http://schema.org/ImageGallery">
-    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="img/console_granted_projects_overview.png" itemprop="contentUrl" data-size="1920x1080">
-            <img src="img/console_granted_projects_overview.png" itemprop="thumbnail" alt="console_granted_projects_overview" />
-        </a>
-        <figcaption itemprop="caption description">Granted Projects Overview</figcaption>
-    </figure>
-</div>
+<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <a href="img/console_granted_projects_overview.png" itemprop="contentUrl" data-size="1920x1080">
+        <img src="img/console_granted_projects_overview.png" itemprop="thumbnail" alt="console_granted_projects_overview" />
+    </a>
+    <figcaption itemprop="caption description">Granted Projects Overview</figcaption>
+</figure>
 
 Please note that you can also grant selected roles of a project to an individual user, instead of an organization. We will discuss this in more detail in a later section.
 
@@ -164,14 +144,12 @@ Please note that you can also grant selected roles of a project to an individual
 3. Select some roles you would like to grant to the organization ACME and confirm.
 4. You should now see ACME in the section GRANTED ORGANIZATIONS
 
-<div class="zitadel-gallery" itemscope itemtype="http://schema.org/ImageGallery">
-    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="img/projects_create_org_grant_caos2acme.gif" itemprop="contentUrl" data-size="1920x1080">
-            <img src="img/projects_create_org_grant_caos2acme.gif" itemprop="thumbnail" alt="projects_create_org_grant_caos2acme" />
-        </a>
-        <figcaption itemprop="caption description">Grant a project</figcaption>
-    </figure>
-</div>
+<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <a href="img/projects_create_org_grant_caos2acme.gif" itemprop="contentUrl" data-size="1920x1080">
+        <img src="img/projects_create_org_grant_caos2acme.gif" itemprop="thumbnail" alt="projects_create_org_grant_caos2acme" />
+    </a>
+    <figcaption itemprop="caption description">Grant a project</figcaption>
+</figure>
 
 
 ### Knowledge Check (2)

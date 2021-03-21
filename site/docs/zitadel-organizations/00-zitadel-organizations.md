@@ -18,11 +18,9 @@ ZITADEL is organized around the idea that
 * organizations can grant each other rights to self-manage certain aspects of the IAM (eg, roles for access management)
 * organizations are vessels for users and projects
 
-<div class="zitadel-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+<div class="figure-wrapper">
     <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="img/zitadel_organizations.png" itemprop="contentUrl" data-size="1920x1080">
-            <img src="img/zitadel_organizations.png" itemprop="thumbnail" alt="Zitadel Organizations" />
-        </a>
+        <img src="img/zitadel_organizations.png" itemprop="thumbnail" alt="Zitadel Organizations" />
         <figcaption itemprop="caption description">Overview ZITADEL Organizations</figcaption>
     </figure>
 </div>
@@ -33,14 +31,12 @@ You can use projects within your organization to manage the security context of 
 
 ZITADEL allows you to give other organizations permission to manage certain aspects of a project within your organization on their own. This means you could set up a project with roles that should exist within your service/software, but allow another organization to allocate the roles to users within their own organization. As a service provider, you will find this feature useful, as it allows you to establish a self-service culture for your business customers.
 
-<div class="zitadel-gallery" itemscope itemtype="http://schema.org/ImageGallery">
-    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="img/zitadel_organization_grant.png" itemprop="contentUrl" data-size="1920x1080">
-            <img src="img/zitadel_organization_grant.png" itemprop="thumbnail" alt="Zitadel Organization grant" />
-        </a>
-        <figcaption itemprop="caption description">Organization Grant</figcaption>
-    </figure>
-</div>
+<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <a href="img/zitadel_organization_grant.png" itemprop="contentUrl" data-size="1920x1080">
+        <img src="img/zitadel_organization_grant.png" itemprop="thumbnail" alt="Zitadel Organization grant" />
+    </a>
+    <figcaption itemprop="caption description">Organization Grant</figcaption>
+</figure>
 
 Each organization has its own pool of usernames, which includes human and service users, for its domain (`{username}@{domainname}.{zitadeldomain}`). A username is unique within your organization. You can configure ZITADEL to use your own domain, and simplify user experience (`{loginname}@{yourdomain.tld}`).
 
@@ -50,26 +46,21 @@ There are several more modules in our documentation to go into more detail regar
 
 To register your organization and create a user for ZITADEL, visit zitadel.ch or directly https://accounts.zitadel.ch/register/org and fill in the required information.
 
-<div class="zitadel-gallery" itemscope itemtype="http://schema.org/ImageGallery">
-    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="img/console_org_register.png" itemprop="contentUrl" data-size="1920x1080">
-            <img src="img/console_org_register.png" itemprop="thumbnail" alt="Register Org" />
-        </a>
-        <figcaption itemprop="caption description">Register new Organization</figcaption>
-    </figure>
-</div>
-
+<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <a href="img/console_org_register.png" itemprop="contentUrl" data-size="1920x1080">
+        <img src="img/console_org_register.png" itemprop="thumbnail" alt="Register Org" />
+    </a>
+    <figcaption itemprop="caption description">Register new Organization</figcaption>
+</figure>
 
 If you already have an existing login for zitadel.ch, you need to visit the console, then click on your organization’s name in the upper left corner, and then select “New organization”.
 
-<div class="zitadel-gallery" itemscope itemtype="http://schema.org/ImageGallery">
-    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="img/console_org_select.png" itemprop="contentUrl" data-size="1920x1080">
-            <img src="img/console_org_select.png" itemprop="thumbnail" alt="console_org_select" />
-        </a>
-        <figcaption itemprop="caption description">Select Organization</figcaption>
-    </figure>
-</div>
+<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <a href="img/console_org_select.png" itemprop="contentUrl" data-size="1920x1080">
+        <img src="img/console_org_select.png" itemprop="thumbnail" alt="console_org_select" />
+    </a>
+    <figcaption itemprop="caption description">Select Organization</figcaption>
+</figure>
 
 ### How ZITADEL handles usernames
 
