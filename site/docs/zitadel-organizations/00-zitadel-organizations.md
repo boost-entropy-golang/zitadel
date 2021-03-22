@@ -80,7 +80,22 @@ An organization can have multiple domain names, but only one domain can be prima
 
 Please note that domain verification also removes the logonname from all users, who might have used this combination in the global organization (ie. users not belonging to a specific organization). Relating to our example with acme.ch: If a user ‘coyote’ exists in the global organization with the logonname coyote@acme.ch, then after verification of acme.ch, this logonname will be replaced with `coyote@{randomvalue.tld}`. ZITADEL will notify users affected by this change.
 
+
+
 ### Exercise - Verify your domain name
+
+1. Browse to your organization
+2. Click **Add Domain**
+3. To start the domain verification click the domain name and a dialog will appear, where you can choose between DNS or HTTP challenge methods.
+4. For example, create a TXT record with your DNS provider for the used domain and click verify. ZITADEL will then proceed an check your DNS.
+5. When the verification is successful you have the option to activate the domain by clicking **Set as primary**
+
+<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <a href="img/console_verify_domain.gif" itemprop="contentUrl" data-size="1920x1080">
+        <img src="img/console_verify_domain.gif" itemprop="thumbnail" alt="console_verify_domain" />
+    </a>
+    <figcaption itemprop="caption description">Verify Domain</figcaption>
+</figure>
 
 > **_Please note:_** Do not delete the verification code, as ZITADEL will re-check the ownership of your domain from time to time
 
