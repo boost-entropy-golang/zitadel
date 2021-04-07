@@ -42,7 +42,7 @@ require (
 	github.com/kevinburke/rest v0.0.0-20200429221318-0d2892b400f8 // indirect
 	github.com/kevinburke/twilio-go v0.0.0-20200810163702-320748330fac
 	github.com/lib/pq v1.9.0
-	github.com/manifoldco/promptui v0.7.0
+	github.com/manifoldco/promptui v0.8.0
 	github.com/mattn/go-colorable v0.1.8 // indirect; indirect github.com/mitchellh/copystructure v1.0.0 // indirect
 	github.com/mitchellh/copystructure v1.0.0 // indirect
 	github.com/mitchellh/reflectwalk v1.0.1 // indirect
